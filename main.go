@@ -27,7 +27,7 @@ func Greet(name string) string {
 }
 
 func main() {
-	greeting := Greet("Sander")
+	greeting := Greet("Tony")
 	log.Printf(greeting)
 	for {
 		// Don't exit, otherwise Kubernetes thinks we crashed.
